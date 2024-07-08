@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   base: &base
@@ -42,7 +42,6 @@ services:
     environment:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
-      # Please provide your own password.
       - POSTGRES_PASSWORD=admin@123@mishAL
 
   redis:
